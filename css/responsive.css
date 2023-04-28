@@ -1,0 +1,41 @@
+/* tablet responsive here */
+
+@media screen and (max-width: 800px) {
+    .home-wrapper {
+        height: 75vh;
+    }
+    
+    .welcome-board h2 {
+        font-size: 29px;
+    }
+    
+    .welcome-image img {
+        height: 315px;
+        object-fit: cover;
+    }
+    
+    html {
+        height: 100%;
+        }
+        
+    body {
+        min-height: 100%;
+    }
+  }
+
+
+/* mobile responsive here */
+
+@media screen and (max-width: 800px) {
+    .home-wrapper {
+        height: 100%;
+    }
+    
+    .home-wrapper div:first-child {
+        margin-bottom: 35px;
+    }
+    
+    .welcome-board h2 {
+        margin-top: 20px;
+    }
+  }
